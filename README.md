@@ -174,9 +174,11 @@ research_task = Task(
 # Tâche de rédaction avec configuration du modèle de langage
 write_task = Task(
     description=(
-        "Rédiger un article perspicace sur {topic}. "
+        "Rédiger en français un article pertinent sur {topic}. "
         "Se concentrer sur les dernières tendances et leur impact sur l'industrie. "
         "Cet article doit être facile à comprendre, engageant, et positif."
+        "Fait bien attention à respecter les règles typographiques concernant les majuscules dans les titres."
+        
     ),
     expected_output='Un article de 4 paragraphes sur les avancées dans {topic}, formaté en markdown.',
     tools=[tool],
