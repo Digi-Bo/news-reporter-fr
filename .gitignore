@@ -1,0 +1,6 @@
+news-reporter-fr.mm
+.env
+docu.md
+venv/
+db/
+__pycache__/
